@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC-SARAD - Captura y Almacenamiento Automático de Datos</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a AC-SARAD</h1>
+    </header>
+
+    <section class="container">
+        <h2>Captura de Datos</h2>
+        <form action="/procesar_imagen" method="post" enctype="multipart/form-data">
+            <label for="input-imagen">Subir Imagen:</label>
+            <input type="file" id="input-imagen" name="imagen" accept="image/*">
+            <button type="submit">Procesar Imagen</button>
+        </form>
+
+        <h3>Resultados:</h3>
+        <div id="resultado">
+            <!-- Aquí se mostrará el texto extraído -->
+            {% if texto_extraido %}
+            <p>{{ texto_extraido }}</p>
+            {% endif %}
+        </div>
+    </section>
+
+    <footer>
+        <p>Desarrollado por <strong>AC-SARAD</strong></p>
+    </footer>
+</body>
+</html>
