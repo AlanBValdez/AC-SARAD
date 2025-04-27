@@ -1,8 +1,3 @@
-Compartir
-
-
-Tú dijiste:
-como instalar una ia este es mi proyecto Proyecto: AutoCaptura Sistema Automatizado de Reconocimiento y Almacenamiento de Datos (AC-SARAD)
 
 Introducción El proyecto AutoCaptura (AC-SARAD) tiene como objetivo transformar el proceso de captura y almacenamiento de datos en organizaciones que dependen de la entrada manual de información. Con la creciente necesidad de optimizar flujos de trabajo y mejorar la precisión de los datos, este sistema automatizado permitirá a los operadores presentar una libreta frente a una cámara. A través de un sistema de reconocimiento óptico de caracteres (OCR), la información escrita será extraída y organizada en hit boxes, donde cada cuadro representará un campo específico en la base de datos de Microsoft Access o en un archivo de Excel.
 
